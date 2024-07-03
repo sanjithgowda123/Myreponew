@@ -1,0 +1,14 @@
+{
+    "name": "simple-web-project",
+    "version": "1.0.0",
+    "description": "A simple project with HTML, CSS, JavaScript, and a Node.js backend using MSSQL",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.19.2",
+        "mssql": "^6.4.1"
+    }
+}
